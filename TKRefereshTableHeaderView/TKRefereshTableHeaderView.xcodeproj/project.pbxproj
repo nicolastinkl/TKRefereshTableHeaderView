@@ -15,13 +15,15 @@
 		8629C40018E2C517008422F6 /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8629C3FF18E2C517008422F6 /* TKAppDelegate.m */; };
 		8629C40318E2C517008422F6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8629C40118E2C517008422F6 /* Main_iPhone.storyboard */; };
 		8629C40618E2C517008422F6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8629C40418E2C517008422F6 /* Main_iPad.storyboard */; };
-		8629C40918E2C517008422F6 /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8629C40818E2C517008422F6 /* TKViewController.m */; };
 		8629C40B18E2C517008422F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8629C40A18E2C517008422F6 /* Images.xcassets */; };
 		8629C41218E2C517008422F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8629C41118E2C517008422F6 /* XCTest.framework */; };
 		8629C41318E2C517008422F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8629C3EF18E2C517008422F6 /* Foundation.framework */; };
 		8629C41418E2C517008422F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8629C3F318E2C517008422F6 /* UIKit.framework */; };
 		8629C41C18E2C517008422F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8629C41A18E2C517008422F6 /* InfoPlist.strings */; };
 		8629C41E18E2C517008422F6 /* TKRefereshTableHeaderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8629C41D18E2C517008422F6 /* TKRefereshTableHeaderViewTests.m */; };
+		8629C42918E2C672008422F6 /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8629C42818E2C672008422F6 /* TKViewController.m */; };
+		8629C42F18E2C814008422F6 /* TKCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8629C42E18E2C814008422F6 /* TKCircleView.m */; };
+		8629C43218E2C91C008422F6 /* TKRefereshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8629C43118E2C91C008422F6 /* TKRefereshTableHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +49,18 @@
 		8629C3FF18E2C517008422F6 /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
 		8629C40218E2C517008422F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		8629C40518E2C517008422F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		8629C40718E2C517008422F6 /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
-		8629C40818E2C517008422F6 /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
 		8629C40A18E2C517008422F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8629C41018E2C517008422F6 /* TKRefereshTableHeaderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKRefereshTableHeaderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8629C41118E2C517008422F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8629C41918E2C517008422F6 /* TKRefereshTableHeaderViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKRefereshTableHeaderViewTests-Info.plist"; sourceTree = "<group>"; };
 		8629C41B18E2C517008422F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8629C41D18E2C517008422F6 /* TKRefereshTableHeaderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKRefereshTableHeaderViewTests.m; sourceTree = "<group>"; };
+		8629C42718E2C672008422F6 /* TKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
+		8629C42818E2C672008422F6 /* TKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		8629C42D18E2C814008422F6 /* TKCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCircleView.h; sourceTree = "<group>"; };
+		8629C42E18E2C814008422F6 /* TKCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCircleView.m; sourceTree = "<group>"; };
+		8629C43018E2C91C008422F6 /* TKRefereshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRefereshTableHeaderView.h; sourceTree = "<group>"; };
+		8629C43118E2C91C008422F6 /* TKRefereshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRefereshTableHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +120,12 @@
 		8629C3F518E2C517008422F6 /* TKRefereshTableHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				8629C42C18E2C7EF008422F6 /* Referesh */,
+				8629C42A18E2C678008422F6 /* Views */,
 				8629C3FE18E2C517008422F6 /* TKAppDelegate.h */,
 				8629C3FF18E2C517008422F6 /* TKAppDelegate.m */,
 				8629C40118E2C517008422F6 /* Main_iPhone.storyboard */,
 				8629C40418E2C517008422F6 /* Main_iPad.storyboard */,
-				8629C40718E2C517008422F6 /* TKViewController.h */,
-				8629C40818E2C517008422F6 /* TKViewController.m */,
 				8629C40A18E2C517008422F6 /* Images.xcassets */,
 				8629C3F618E2C517008422F6 /* Supporting Files */,
 			);
@@ -153,6 +159,26 @@
 				8629C41A18E2C517008422F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8629C42A18E2C678008422F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8629C42718E2C672008422F6 /* TKViewController.h */,
+				8629C42818E2C672008422F6 /* TKViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8629C42C18E2C7EF008422F6 /* Referesh */ = {
+			isa = PBXGroup;
+			children = (
+				8629C42D18E2C814008422F6 /* TKCircleView.h */,
+				8629C42E18E2C814008422F6 /* TKCircleView.m */,
+				8629C43018E2C91C008422F6 /* TKRefereshTableHeaderView.h */,
+				8629C43118E2C91C008422F6 /* TKRefereshTableHeaderView.m */,
+			);
+			path = Referesh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8629C40918E2C517008422F6 /* TKViewController.m in Sources */,
+				8629C42918E2C672008422F6 /* TKViewController.m in Sources */,
+				8629C43218E2C91C008422F6 /* TKRefereshTableHeaderView.m in Sources */,
+				8629C42F18E2C814008422F6 /* TKCircleView.m in Sources */,
 				8629C3FC18E2C517008422F6 /* main.m in Sources */,
 				8629C40018E2C517008422F6 /* TKAppDelegate.m in Sources */,
 			);
